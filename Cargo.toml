@@ -1,0 +1,22 @@
+[package]
+name = "legion_os"
+version = "0.1.0"
+edition = "2021"
+description = "Legion OS"
+authors = ["Soroush Alinia <soroushalinia.wm@gmail.com"]
+
+
+[dependencies]
+noto-sans-mono-bitmap = "0.1.5"
+raw-cpuid = "*"
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
+
+
+
+
+
